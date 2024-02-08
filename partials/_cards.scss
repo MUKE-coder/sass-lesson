@@ -1,0 +1,17 @@
+.cards {
+  padding: 2rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  .card {
+    padding: 1rem;
+    border: 1px solid palegreen;
+    p {
+      margin-bottom: 2rem;
+    }
+    a {
+      display: block;
+      margin-bottom: 1rem;
+    }
+  }
+}

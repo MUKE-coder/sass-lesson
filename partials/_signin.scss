@@ -1,0 +1,52 @@
+.section-signin {
+  background-color: $secondary-color;
+  min-height: 100vh;
+  color: $primary-color;
+  .signin-card {
+    box-shadow: $shadow-lg;
+    max-width: 450px;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 2.5rem;
+    .card-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 2rem;
+      a {
+        color: $primary-color;
+      }
+    }
+    .form-input {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 1rem;
+      label {
+        margin-bottom: 0.5rem;
+        font-weight: bold;
+      }
+      input {
+        width: 100%;
+        padding: 0.7rem 0.5rem;
+        border: 1px solid $tertiary-color;
+        border-radius: 5px;
+        border: none;
+        outline: 1px solid greenyellow;
+        &:focus {
+          border: 1px solid red;
+        }
+      }
+    }
+    .primary-btn {
+      background-color: $primary-color;
+      color: $secondary-color;
+      border: none;
+      transition: all 0.5s;
+      cursor: pointer;
+      &:hover {
+        background-color: aqua;
+        color: $primary-color;
+      }
+    }
+  }
+}

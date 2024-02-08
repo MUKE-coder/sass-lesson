@@ -1,0 +1,17 @@
+// NESTING
+.section-welcome {
+  background-color: $secondary-color;
+  color: $primary-color;
+  p {
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+  }
+  .section-heading {
+    color: $primary-color;
+    padding: 1rem;
+  }
+  .primary-btn {
+    background-color: $primary-color;
+    color: $secondary-color;
+  }
+}

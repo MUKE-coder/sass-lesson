@@ -1,0 +1,45 @@
+// GLOBAL STYLES
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $primary-font;
+}
+
+body {
+  background-color: $primary-color;
+  color: $secondary-color;
+}
+a {
+  text-decoration: none;
+  color: $secondary-color;
+}
+
+.primary-btn {
+  background-color: $secondary-color;
+  color: $primary-color;
+  padding: 1rem 3rem;
+  border-radius: 3rem;
+}
+.section-heading {
+  color: $secondary-color;
+  font-size: 3rem;
+  // padding: 3rem 0;
+  @media (max-width: 768px) {
+    font-size: 2rem;
+  }
+  @media (max-width: 480px) {
+    font-size: 1.5rem;
+  }
+}
+.container {
+  max-width: 1440px;
+  margin: auto;
+  padding: 8rem 5rem;
+  @media (max-width: 768px) {
+    padding: 5rem 3rem;
+  }
+  @media (max-width: 480px) {
+    padding: 3rem 1.5rem;
+  }
+}
